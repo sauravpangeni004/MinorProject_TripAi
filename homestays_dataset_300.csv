@@ -1,0 +1,301 @@
+homestay_id,homestay_name,destination_id,price,rating,amenities,review
+H001,Sunrise Phewa Lake Guest House,D001,1600,4.3,"Restaurant, Pet Friendly, Family Room, Airport Pickup",Peaceful stay close to major attractions.
+H002,Green Phewa Lake Inn,D001,1300,4.8,"Family Room, WiFi, Restaurant, Parking",Peaceful stay close to major attractions.
+H003,Hill Phewa Lake Homestay,D001,3200,4.1,"Airport Pickup, WiFi, Family Room",Peaceful stay close to major attractions.
+H004,Everest Phewa Lake Residence,D001,1300,4.5,"Restaurant, Airport Pickup, Hot Shower, Parking",Peaceful stay close to major attractions.
+H005,Annapurna Phewa Lake Retreat,D001,4100,4.9,"Family Room, Airport Pickup, Breakfast",Peaceful stay close to major attractions.
+H006,Annapurna Phewa Lake Residence,D001,3000,4.2,"Airport Pickup, Family Room, Hot Shower, Parking",Great value for money with authentic local meals.
+H007,Hill Sarangkot Inn,D002,4400,4.4,"Restaurant, Hot Shower, Family Room",Beautiful views and a welcoming family atmosphere.
+H008,Annapurna Sarangkot Retreat,D002,3500,4.5,"Mountain View, Breakfast, Restaurant, Pet Friendly, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H009,Sunrise Sarangkot Guest House,D002,3700,4.4,"WiFi, Restaurant, Pet Friendly, Parking, Mountain View",Comfortable rooms and helpful hosts.
+H010,Hill Sarangkot Guest House,D002,3700,4.6,"Airport Pickup, Hot Shower, WiFi",Peaceful stay close to major attractions.
+H011,River Sarangkot Guest House,D002,2600,4.4,"Pet Friendly, Mountain View, Restaurant, Parking",Comfortable rooms and helpful hosts.
+H012,Hill Sarangkot Residence,D002,1200,4.4,"Airport Pickup, Parking, Hot Shower, Restaurant, WiFi",Beautiful views and a welcoming family atmosphere.
+H013,Lakeside Annapurna Base Camp Guest House,D003,4700,4.3,"Family Room, Restaurant, Mountain View, Hot Shower, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H014,River Annapurna Base Camp Guest House,D003,3300,4.5,"Hot Shower, Parking, Airport Pickup",Friendly hosts with clean rooms and excellent hospitality.
+H015,River Annapurna Base Camp Lodge,D003,1400,4.8,"Breakfast, Pet Friendly, WiFi, Hot Shower, Restaurant",Great value for money with authentic local meals.
+H016,Himalayan Annapurna Base Camp Lodge,D003,1900,4.7,"Mountain View, Garden, Breakfast",Peaceful stay close to major attractions.
+H017,Sunrise Annapurna Base Camp Lodge,D003,4500,4.9,"Garden, Pet Friendly, Restaurant, Mountain View, Parking",Beautiful views and a welcoming family atmosphere.
+H018,Valley Annapurna Base Camp Homestay,D003,1300,4.3,"Family Room, Hot Shower, Garden, WiFi",Great value for money with authentic local meals.
+H019,Heritage Poon Hill Guest House,D004,2500,4.9,"WiFi, Hot Shower, Pet Friendly, Airport Pickup",Peaceful stay close to major attractions.
+H020,Mountain Poon Hill Residence,D004,2200,4.5,"Family Room, Airport Pickup, Hot Shower, Mountain View, Pet Friendly",Comfortable rooms and helpful hosts.
+H021,Valley Poon Hill Retreat,D004,4500,4.6,"Pet Friendly, Mountain View, Family Room, WiFi",Great value for money with authentic local meals.
+H022,Sunrise Poon Hill Retreat,D004,1500,4.3,"Garden, Pet Friendly, Parking",Beautiful views and a welcoming family atmosphere.
+H023,Hill Poon Hill Lodge,D004,2000,4.1,"Pet Friendly, Hot Shower, Restaurant",Peaceful stay close to major attractions.
+H024,Heritage Poon Hill Guest House,D004,4400,4.1,"Mountain View, Breakfast, Hot Shower",Comfortable rooms and helpful hosts.
+H025,Annapurna Chitwan National Park Inn,D005,4900,4.3,"Family Room, Garden, Restaurant",Friendly hosts with clean rooms and excellent hospitality.
+H026,Lakeside Chitwan National Park Guest House,D005,3700,4.8,"Parking, Hot Shower, Mountain View",Comfortable rooms and helpful hosts.
+H027,Sunrise Chitwan National Park Lodge,D005,3900,4.3,"Breakfast, Family Room, Mountain View, Airport Pickup, Restaurant",Comfortable rooms and helpful hosts.
+H028,Valley Chitwan National Park Guest House,D005,2700,4.2,"Breakfast, Parking, Airport Pickup",Peaceful stay close to major attractions.
+H029,River Chitwan National Park Retreat,D005,2900,4.7,"Airport Pickup, Garden, Mountain View, Parking, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H030,Peace Chitwan National Park Retreat,D005,5000,4.7,"Restaurant, Parking, Breakfast, Airport Pickup, WiFi",Beautiful views and a welcoming family atmosphere.
+H031,Green Lumbini Inn,D006,2100,4.8,"Breakfast, Family Room, Pet Friendly, Garden",Comfortable rooms and helpful hosts.
+H032,Himalayan Lumbini Guest House,D006,1700,4.9,"Garden, Airport Pickup, Breakfast, Hot Shower",Great value for money with authentic local meals.
+H033,Green Lumbini Homestay,D006,3000,4.1,"WiFi, Breakfast, Family Room, Pet Friendly, Restaurant",Peaceful stay close to major attractions.
+H034,Himalayan Lumbini Guest House,D006,3800,4.2,"Parking, Hot Shower, Pet Friendly, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H035,Everest Lumbini Inn,D006,4600,4.8,"Airport Pickup, Garden, Restaurant, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H036,Himalayan Lumbini Residence,D006,3200,4.1,"Garden, Mountain View, Restaurant",Beautiful views and a welcoming family atmosphere.
+H037,Lakeside Swayambhunath Stupa Inn,D007,1600,4.2,"Pet Friendly, Restaurant, Breakfast, Parking",Peaceful stay close to major attractions.
+H038,Hill Swayambhunath Stupa Guest House,D007,4200,4.6,"Parking, Airport Pickup, Hot Shower, Pet Friendly",Peaceful stay close to major attractions.
+H039,Himalayan Swayambhunath Stupa Lodge,D007,1700,4.8,"Restaurant, Breakfast, Mountain View",Peaceful stay close to major attractions.
+H040,Everest Swayambhunath Stupa Lodge,D007,1400,4.4,"Pet Friendly, Garden, Hot Shower, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H041,River Swayambhunath Stupa Guest House,D007,4900,4.7,"Hot Shower, Pet Friendly, WiFi",Peaceful stay close to major attractions.
+H042,Everest Swayambhunath Stupa Homestay,D007,2900,4.5,"Breakfast, WiFi, Airport Pickup",Great value for money with authentic local meals.
+H043,Lakeside Pashupatinath Temple Inn,D008,4200,4.8,"Breakfast, Airport Pickup, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H044,River Pashupatinath Temple Residence,D008,2300,4.2,"Parking, Mountain View, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H045,Heritage Pashupatinath Temple Guest House,D008,5000,4.3,"Parking, Airport Pickup, WiFi",Great value for money with authentic local meals.
+H046,Hill Pashupatinath Temple Residence,D008,4700,4.8,"Hot Shower, Parking, Garden, Pet Friendly, Restaurant",Peaceful stay close to major attractions.
+H047,Mountain Pashupatinath Temple Residence,D008,2700,4.3,"Restaurant, Family Room, Garden",Comfortable rooms and helpful hosts.
+H048,Valley Pashupatinath Temple Guest House,D008,4100,4.1,"Parking, Garden, Restaurant, WiFi",Beautiful views and a welcoming family atmosphere.
+H049,Hill Boudhanath Stupa Homestay,D009,1500,4.7,"Parking, Pet Friendly, Airport Pickup, Restaurant, Family Room",Beautiful views and a welcoming family atmosphere.
+H050,Hill Boudhanath Stupa Inn,D009,2300,4.6,"Restaurant, WiFi, Parking",Comfortable rooms and helpful hosts.
+H051,Lakeside Boudhanath Stupa Guest House,D009,4000,4.8,"Hot Shower, Pet Friendly, Mountain View, Airport Pickup, Restaurant",Beautiful views and a welcoming family atmosphere.
+H052,Himalayan Boudhanath Stupa Residence,D009,3800,4.4,"Garden, Hot Shower, WiFi, Restaurant, Pet Friendly",Great value for money with authentic local meals.
+H053,Sunrise Boudhanath Stupa Guest House,D009,2500,4.3,"Garden, Airport Pickup, Mountain View, Breakfast, Restaurant",Beautiful views and a welcoming family atmosphere.
+H054,Hill Boudhanath Stupa Homestay,D009,1900,4.8,"Pet Friendly, Family Room, Parking, Breakfast, Restaurant",Beautiful views and a welcoming family atmosphere.
+H055,Himalayan Kathmandu Durbar Square Guest House,D010,1500,4.5,"Mountain View, Family Room, Parking, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H056,River Kathmandu Durbar Square Homestay,D010,2800,4.6,"Breakfast, Parking, Pet Friendly, Hot Shower",Peaceful stay close to major attractions.
+H057,Everest Kathmandu Durbar Square Inn,D010,3700,4.2,"Restaurant, Parking, Pet Friendly, Breakfast",Friendly hosts with clean rooms and excellent hospitality.
+H058,Everest Kathmandu Durbar Square Guest House,D010,4600,4.4,"Garden, Pet Friendly, Hot Shower",Beautiful views and a welcoming family atmosphere.
+H059,Heritage Kathmandu Durbar Square Guest House,D010,1200,4.9,"Restaurant, WiFi, Airport Pickup, Mountain View, Garden",Peaceful stay close to major attractions.
+H060,Peace Kathmandu Durbar Square Retreat,D010,2300,4.3,"Hot Shower, Garden, Airport Pickup, Restaurant, Parking",Beautiful views and a welcoming family atmosphere.
+H061,Sunrise Bhaktapur Durbar Square Guest House,D011,3400,4.5,"Hot Shower, Family Room, Pet Friendly",Great value for money with authentic local meals.
+H062,Green Bhaktapur Durbar Square Homestay,D011,1900,4.6,"Airport Pickup, Garden, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H063,River Bhaktapur Durbar Square Lodge,D011,4800,4.7,"Airport Pickup, Mountain View, Pet Friendly, WiFi",Friendly hosts with clean rooms and excellent hospitality.
+H064,Valley Bhaktapur Durbar Square Residence,D011,4000,4.4,"Family Room, Mountain View, Restaurant, WiFi, Airport Pickup",Beautiful views and a welcoming family atmosphere.
+H065,Everest Bhaktapur Durbar Square Retreat,D011,4700,4.1,"Pet Friendly, Airport Pickup, Hot Shower, Restaurant",Comfortable rooms and helpful hosts.
+H066,River Bhaktapur Durbar Square Inn,D011,3100,4.7,"Pet Friendly, Airport Pickup, Hot Shower, Parking",Comfortable rooms and helpful hosts.
+H067,Mountain Patan Durbar Square Residence,D012,3600,4.6,"Mountain View, Breakfast, Restaurant, Pet Friendly",Peaceful stay close to major attractions.
+H068,Annapurna Patan Durbar Square Residence,D012,3000,4.6,"Parking, Family Room, Garden, Airport Pickup",Peaceful stay close to major attractions.
+H069,Green Patan Durbar Square Guest House,D012,1200,4.4,"Family Room, Airport Pickup, Garden, Breakfast",Beautiful views and a welcoming family atmosphere.
+H070,Peace Patan Durbar Square Inn,D012,2200,4.5,"Garden, Airport Pickup, Breakfast",Comfortable rooms and helpful hosts.
+H071,Everest Patan Durbar Square Homestay,D012,3400,4.2,"WiFi, Parking, Airport Pickup, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H072,Everest Patan Durbar Square Residence,D012,2900,4.6,"Airport Pickup, Hot Shower, Pet Friendly",Great value for money with authentic local meals.
+H073,Peace Nagarkot Homestay,D013,1600,4.7,"Mountain View, Restaurant, WiFi, Breakfast, Parking",Comfortable rooms and helpful hosts.
+H074,Peace Nagarkot Lodge,D013,2600,4.4,"Parking, Restaurant, Garden, Family Room",Comfortable rooms and helpful hosts.
+H075,Lakeside Nagarkot Residence,D013,2600,4.3,"Hot Shower, WiFi, Family Room, Parking, Pet Friendly",Peaceful stay close to major attractions.
+H076,Peace Nagarkot Retreat,D013,1600,4.6,"Pet Friendly, Restaurant, Parking",Comfortable rooms and helpful hosts.
+H077,Peace Nagarkot Inn,D013,4500,4.2,"Restaurant, Mountain View, Garden",Beautiful views and a welcoming family atmosphere.
+H078,Himalayan Nagarkot Homestay,D013,2500,4.7,"Breakfast, Pet Friendly, Hot Shower, Restaurant",Great value for money with authentic local meals.
+H079,Valley Everest Base Camp Homestay,D014,2300,4.1,"WiFi, Hot Shower, Pet Friendly, Airport Pickup, Mountain View",Comfortable rooms and helpful hosts.
+H080,Heritage Everest Base Camp Guest House,D014,4000,4.4,"Breakfast, Parking, Pet Friendly, Restaurant",Beautiful views and a welcoming family atmosphere.
+H081,Himalayan Everest Base Camp Inn,D014,4000,4.4,"Hot Shower, Pet Friendly, Garden",Beautiful views and a welcoming family atmosphere.
+H082,River Everest Base Camp Guest House,D014,3600,4.3,"Garden, Mountain View, Restaurant, Pet Friendly, WiFi",Peaceful stay close to major attractions.
+H083,Green Everest Base Camp Homestay,D014,1200,4.7,"Mountain View, Family Room, Garden, Breakfast",Beautiful views and a welcoming family atmosphere.
+H084,Sunrise Everest Base Camp Residence,D014,2100,4.7,"WiFi, Family Room, Parking",Comfortable rooms and helpful hosts.
+H085,Mountain Namche Bazaar Guest House,D015,3600,4.3,"Restaurant, Garden, WiFi",Friendly hosts with clean rooms and excellent hospitality.
+H086,River Namche Bazaar Homestay,D015,4500,4.8,"Garden, Breakfast, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H087,Himalayan Namche Bazaar Homestay,D015,4300,4.6,"Garden, Hot Shower, Restaurant, Airport Pickup, Parking",Great value for money with authentic local meals.
+H088,Peace Namche Bazaar Residence,D015,2700,4.3,"Pet Friendly, Parking, Mountain View, Hot Shower, Garden",Comfortable rooms and helpful hosts.
+H089,Annapurna Namche Bazaar Guest House,D015,1500,4.8,"Family Room, Airport Pickup, Hot Shower, Mountain View, Garden",Beautiful views and a welcoming family atmosphere.
+H090,Annapurna Namche Bazaar Homestay,D015,2900,4.7,"Breakfast, Garden, Parking, WiFi, Pet Friendly",Friendly hosts with clean rooms and excellent hospitality.
+H091,Himalayan Rara Lake Inn,D016,1400,4.1,"Airport Pickup, Restaurant, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H092,Lakeside Rara Lake Homestay,D016,2000,4.5,"Parking, Family Room, Restaurant, WiFi",Comfortable rooms and helpful hosts.
+H093,Peace Rara Lake Homestay,D016,2800,4.7,"Garden, WiFi, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H094,Heritage Rara Lake Lodge,D016,3200,4.7,"Family Room, Breakfast, Garden, WiFi",Beautiful views and a welcoming family atmosphere.
+H095,Himalayan Rara Lake Guest House,D016,4700,4.3,"Airport Pickup, Family Room, Restaurant, WiFi",Peaceful stay close to major attractions.
+H096,Annapurna Rara Lake Inn,D016,4500,4.9,"Pet Friendly, Airport Pickup, WiFi, Family Room, Parking",Peaceful stay close to major attractions.
+H097,Himalayan Gosaikunda Lodge,D017,3600,4.5,"Family Room, Mountain View, Parking",Comfortable rooms and helpful hosts.
+H098,Green Gosaikunda Homestay,D017,3100,4.8,"Airport Pickup, Mountain View, Family Room, Parking, Restaurant",Great value for money with authentic local meals.
+H099,Peace Gosaikunda Lodge,D017,4500,4.5,"Breakfast, Parking, Mountain View, Restaurant, Airport Pickup",Great value for money with authentic local meals.
+H100,Hill Gosaikunda Homestay,D017,4000,4.9,"Restaurant, Mountain View, Family Room, Pet Friendly",Friendly hosts with clean rooms and excellent hospitality.
+H101,Hill Gosaikunda Homestay,D017,2000,4.1,"Pet Friendly, Garden, Hot Shower, Mountain View",Comfortable rooms and helpful hosts.
+H102,Heritage Gosaikunda Lodge,D017,3500,4.9,"Mountain View, Family Room, Garden, Hot Shower, Restaurant",Great value for money with authentic local meals.
+H103,River Langtang Valley Guest House,D018,2200,4.1,"Hot Shower, Parking, Breakfast, Restaurant",Beautiful views and a welcoming family atmosphere.
+H104,Heritage Langtang Valley Guest House,D018,1500,4.7,"Garden, Breakfast, Hot Shower, Parking, WiFi",Comfortable rooms and helpful hosts.
+H105,River Langtang Valley Residence,D018,1700,4.8,"Parking, Airport Pickup, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H106,Hill Langtang Valley Lodge,D018,4300,4.7,"Hot Shower, Pet Friendly, Restaurant, Family Room",Peaceful stay close to major attractions.
+H107,Everest Langtang Valley Inn,D018,3500,4.5,"Restaurant, Breakfast, Garden",Beautiful views and a welcoming family atmosphere.
+H108,Himalayan Langtang Valley Homestay,D018,4600,4.7,"Restaurant, Breakfast, Family Room, Garden, Pet Friendly",Comfortable rooms and helpful hosts.
+H109,Hill Mustang (Upper Mustang) Inn,D019,1400,4.4,"WiFi, Hot Shower, Garden, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H110,River Mustang (Upper Mustang) Homestay,D019,3100,4.5,"Mountain View, Airport Pickup, Garden, Restaurant, Hot Shower",Comfortable rooms and helpful hosts.
+H111,River Mustang (Upper Mustang) Inn,D019,5000,4.6,"Restaurant, Garden, Parking, Airport Pickup",Beautiful views and a welcoming family atmosphere.
+H112,Hill Mustang (Upper Mustang) Retreat,D019,4700,4.7,"Garden, WiFi, Family Room",Comfortable rooms and helpful hosts.
+H113,Mountain Mustang (Upper Mustang) Lodge,D019,3800,4.4,"WiFi, Breakfast, Airport Pickup, Family Room, Pet Friendly",Beautiful views and a welcoming family atmosphere.
+H114,Peace Mustang (Upper Mustang) Inn,D019,2900,4.7,"Restaurant, Mountain View, Family Room, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H115,Valley Bandipur Lodge,D020,2100,4.4,"Parking, Garden, Mountain View",Peaceful stay close to major attractions.
+H116,Hill Bandipur Lodge,D020,3800,4.3,"Garden, Family Room, Pet Friendly, Hot Shower, Parking",Beautiful views and a welcoming family atmosphere.
+H117,Himalayan Bandipur Residence,D020,4300,4.9,"Family Room, Breakfast, Airport Pickup, Restaurant",Peaceful stay close to major attractions.
+H118,Sunrise Bandipur Retreat,D020,1300,4.2,"Restaurant, Breakfast, Family Room",Peaceful stay close to major attractions.
+H119,Mountain Bandipur Homestay,D020,3900,4.6,"Airport Pickup, Hot Shower, Family Room",Great value for money with authentic local meals.
+H120,Mountain Bandipur Residence,D020,1800,4.7,"Family Room, Breakfast, Garden, Mountain View, Parking",Peaceful stay close to major attractions.
+H121,Valley Ilam Tea Gardens Residence,D021,1500,4.7,"Breakfast, Family Room, Pet Friendly, Mountain View, Hot Shower",Great value for money with authentic local meals.
+H122,Annapurna Ilam Tea Gardens Guest House,D021,4300,4.8,"Pet Friendly, Restaurant, Breakfast",Peaceful stay close to major attractions.
+H123,Everest Ilam Tea Gardens Guest House,D021,2400,4.2,"Family Room, Airport Pickup, Garden, Pet Friendly",Beautiful views and a welcoming family atmosphere.
+H124,Annapurna Ilam Tea Gardens Guest House,D021,2500,4.7,"Mountain View, Restaurant, Breakfast, WiFi, Pet Friendly",Great value for money with authentic local meals.
+H125,Heritage Ilam Tea Gardens Lodge,D021,1500,4.5,"Garden, Breakfast, Hot Shower, Pet Friendly",Great value for money with authentic local meals.
+H126,Peace Ilam Tea Gardens Residence,D021,2700,4.4,"Garden, Hot Shower, Family Room",Comfortable rooms and helpful hosts.
+H127,Annapurna Pathibhara Devi Temple Guest House,D022,1500,4.5,"Airport Pickup, Parking, Family Room, Pet Friendly, Restaurant",Beautiful views and a welcoming family atmosphere.
+H128,Heritage Pathibhara Devi Temple Lodge,D022,2900,4.5,"Mountain View, Restaurant, Hot Shower, Parking",Peaceful stay close to major attractions.
+H129,Hill Pathibhara Devi Temple Retreat,D022,4900,4.7,"Parking, WiFi, Mountain View, Garden, Restaurant",Peaceful stay close to major attractions.
+H130,Annapurna Pathibhara Devi Temple Retreat,D022,3200,4.6,"Mountain View, Breakfast, Parking, Airport Pickup",Great value for money with authentic local meals.
+H131,Himalayan Pathibhara Devi Temple Homestay,D022,4600,4.8,"Pet Friendly, Parking, Breakfast",Peaceful stay close to major attractions.
+H132,Hill Pathibhara Devi Temple Retreat,D022,4400,4.6,"Family Room, Mountain View, WiFi, Pet Friendly",Friendly hosts with clean rooms and excellent hospitality.
+H133,Peace Kanchenjunga Base Camp Guest House,D023,2600,4.2,"Garden, Mountain View, Pet Friendly",Comfortable rooms and helpful hosts.
+H134,Heritage Kanchenjunga Base Camp Guest House,D023,3600,4.1,"Mountain View, Parking, Breakfast, Airport Pickup",Peaceful stay close to major attractions.
+H135,Annapurna Kanchenjunga Base Camp Guest House,D023,1400,4.4,"Breakfast, Garden, Mountain View",Peaceful stay close to major attractions.
+H136,Peace Kanchenjunga Base Camp Guest House,D023,1500,4.4,"Parking, Family Room, Mountain View",Peaceful stay close to major attractions.
+H137,Green Kanchenjunga Base Camp Residence,D023,3300,4.3,"Mountain View, Breakfast, Pet Friendly, Family Room, Restaurant",Peaceful stay close to major attractions.
+H138,Hill Kanchenjunga Base Camp Lodge,D023,3700,4.2,"Pet Friendly, Airport Pickup, Restaurant, Garden, Hot Shower",Comfortable rooms and helpful hosts.
+H139,Everest Bardia National Park Lodge,D024,2600,4.6,"Parking, WiFi, Breakfast, Restaurant, Family Room",Peaceful stay close to major attractions.
+H140,Everest Bardia National Park Lodge,D024,4600,4.1,"Garden, Airport Pickup, Pet Friendly, Hot Shower, Breakfast",Beautiful views and a welcoming family atmosphere.
+H141,Heritage Bardia National Park Homestay,D024,3500,4.2,"Mountain View, Airport Pickup, WiFi, Garden, Parking",Beautiful views and a welcoming family atmosphere.
+H142,Annapurna Bardia National Park Retreat,D024,2100,4.2,"Parking, Hot Shower, Restaurant, Family Room, Pet Friendly",Great value for money with authentic local meals.
+H143,Peace Bardia National Park Retreat,D024,2100,4.8,"Restaurant, Family Room, Breakfast, Garden",Peaceful stay close to major attractions.
+H144,Peace Bardia National Park Lodge,D024,5000,4.9,"WiFi, Parking, Family Room, Mountain View, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H145,Valley Shuklaphanta National Park Homestay,D025,3900,4.6,"Garden, Mountain View, Family Room, Hot Shower",Comfortable rooms and helpful hosts.
+H146,Valley Shuklaphanta National Park Homestay,D025,1800,4.5,"WiFi, Pet Friendly, Breakfast",Comfortable rooms and helpful hosts.
+H147,Sunrise Shuklaphanta National Park Guest House,D025,4400,4.7,"Garden, Mountain View, Restaurant, Family Room, Airport Pickup",Peaceful stay close to major attractions.
+H148,Hill Shuklaphanta National Park Retreat,D025,1800,4.5,"Parking, Breakfast, WiFi, Mountain View",Great value for money with authentic local meals.
+H149,Everest Shuklaphanta National Park Residence,D025,3400,4.3,"WiFi, Family Room, Airport Pickup, Hot Shower, Parking",Great value for money with authentic local meals.
+H150,Lakeside Shuklaphanta National Park Inn,D025,2700,4.6,"Parking, WiFi, Mountain View, Restaurant, Airport Pickup",Comfortable rooms and helpful hosts.
+H151,Sunrise Khaptad National Park Guest House,D026,4300,4.8,"Breakfast, WiFi, Restaurant, Pet Friendly, Hot Shower",Peaceful stay close to major attractions.
+H152,Everest Khaptad National Park Residence,D026,2600,4.2,"Mountain View, Hot Shower, Restaurant, Pet Friendly",Beautiful views and a welcoming family atmosphere.
+H153,Lakeside Khaptad National Park Inn,D026,2400,4.4,"Airport Pickup, Breakfast, Restaurant, Parking",Peaceful stay close to major attractions.
+H154,Sunrise Khaptad National Park Homestay,D026,3600,4.4,"Breakfast, Parking, Restaurant",Beautiful views and a welcoming family atmosphere.
+H155,Annapurna Khaptad National Park Guest House,D026,3000,4.8,"Airport Pickup, Breakfast, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H156,Valley Khaptad National Park Inn,D026,2600,4.5,"WiFi, Airport Pickup, Hot Shower, Restaurant",Peaceful stay close to major attractions.
+H157,Annapurna Tilicho Lake Retreat,D027,3300,4.6,"Airport Pickup, Pet Friendly, Parking",Peaceful stay close to major attractions.
+H158,Everest Tilicho Lake Guest House,D027,1300,4.5,"Hot Shower, WiFi, Pet Friendly, Mountain View",Comfortable rooms and helpful hosts.
+H159,Heritage Tilicho Lake Guest House,D027,4600,4.2,"Restaurant, Breakfast, WiFi, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H160,River Tilicho Lake Homestay,D027,4200,4.1,"Hot Shower, WiFi, Airport Pickup, Family Room, Parking",Beautiful views and a welcoming family atmosphere.
+H161,Peace Tilicho Lake Residence,D027,3800,4.2,"Airport Pickup, Mountain View, Restaurant",Comfortable rooms and helpful hosts.
+H162,Everest Tilicho Lake Guest House,D027,2200,4.7,"Family Room, Hot Shower, Restaurant, Pet Friendly, Parking",Great value for money with authentic local meals.
+H163,Sunrise Manang Valley Lodge,D028,4800,4.3,"Pet Friendly, Breakfast, Mountain View",Great value for money with authentic local meals.
+H164,Sunrise Manang Valley Lodge,D028,2800,4.3,"Garden, Restaurant, WiFi, Breakfast",Peaceful stay close to major attractions.
+H165,Peace Manang Valley Retreat,D028,2400,4.2,"Airport Pickup, Hot Shower, Family Room, Mountain View, Breakfast",Comfortable rooms and helpful hosts.
+H166,Sunrise Manang Valley Guest House,D028,4100,4.4,"Breakfast, Pet Friendly, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H167,Mountain Manang Valley Residence,D028,3700,4.4,"Parking, Pet Friendly, Breakfast, Restaurant, Hot Shower",Peaceful stay close to major attractions.
+H168,Peace Manang Valley Retreat,D028,3700,4.4,"Hot Shower, Garden, Parking",Great value for money with authentic local meals.
+H169,Valley Thorong La Pass Guest House,D029,3000,4.2,"Hot Shower, Restaurant, WiFi, Parking",Comfortable rooms and helpful hosts.
+H170,Hill Thorong La Pass Homestay,D029,3500,4.7,"Pet Friendly, WiFi, Airport Pickup, Family Room",Great value for money with authentic local meals.
+H171,Sunrise Thorong La Pass Retreat,D029,1800,4.2,"Pet Friendly, Hot Shower, Airport Pickup, Garden",Comfortable rooms and helpful hosts.
+H172,Everest Thorong La Pass Homestay,D029,2500,4.8,"Airport Pickup, Parking, Garden, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H173,Heritage Thorong La Pass Homestay,D029,2400,4.9,"Family Room, Restaurant, Hot Shower, Parking, WiFi",Peaceful stay close to major attractions.
+H174,Annapurna Thorong La Pass Residence,D029,4700,4.5,"Garden, Family Room, Airport Pickup, Parking",Beautiful views and a welcoming family atmosphere.
+H175,Green Dhulikhel Residence,D030,2000,4.2,"Restaurant, WiFi, Pet Friendly",Peaceful stay close to major attractions.
+H176,Everest Dhulikhel Residence,D030,4600,4.8,"Hot Shower, Breakfast, Airport Pickup, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H177,Everest Dhulikhel Inn,D030,2400,4.9,"Airport Pickup, Hot Shower, Family Room, Garden, Parking",Peaceful stay close to major attractions.
+H178,Himalayan Dhulikhel Lodge,D030,4900,4.9,"Mountain View, WiFi, Restaurant",Friendly hosts with clean rooms and excellent hospitality.
+H179,Hill Dhulikhel Retreat,D030,2100,4.8,"Restaurant, WiFi, Breakfast, Family Room",Comfortable rooms and helpful hosts.
+H180,Everest Dhulikhel Homestay,D030,3700,4.7,"Garden, Family Room, Pet Friendly, Parking, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H181,River Namobuddha Inn,D031,1300,4.4,"Mountain View, Parking, Garden, WiFi, Restaurant",Great value for money with authentic local meals.
+H182,Everest Namobuddha Inn,D031,4500,4.7,"Pet Friendly, Breakfast, WiFi, Garden, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H183,Green Namobuddha Lodge,D031,3300,4.8,"WiFi, Mountain View, Breakfast, Hot Shower, Airport Pickup",Friendly hosts with clean rooms and excellent hospitality.
+H184,River Namobuddha Inn,D031,3300,4.5,"WiFi, Parking, Mountain View, Airport Pickup, Breakfast",Peaceful stay close to major attractions.
+H185,Hill Namobuddha Retreat,D031,4900,4.2,"Airport Pickup, Family Room, Mountain View, Parking",Great value for money with authentic local meals.
+H186,Hill Namobuddha Lodge,D031,1400,4.7,"Hot Shower, Garden, Family Room, Airport Pickup, Parking",Comfortable rooms and helpful hosts.
+H187,Hill Janakpur (Janaki Mandir) Homestay,D032,1600,4.7,"Family Room, Breakfast, Parking, Restaurant",Comfortable rooms and helpful hosts.
+H188,Heritage Janakpur (Janaki Mandir) Residence,D032,2800,4.3,"Garden, Restaurant, WiFi",Comfortable rooms and helpful hosts.
+H189,Peace Janakpur (Janaki Mandir) Retreat,D032,4600,4.2,"Mountain View, Garden, Parking, WiFi",Beautiful views and a welcoming family atmosphere.
+H190,Lakeside Janakpur (Janaki Mandir) Residence,D032,1400,4.1,"Family Room, Parking, WiFi, Mountain View",Comfortable rooms and helpful hosts.
+H191,Heritage Janakpur (Janaki Mandir) Residence,D032,4500,4.4,"Hot Shower, Breakfast, Parking",Comfortable rooms and helpful hosts.
+H192,River Janakpur (Janaki Mandir) Homestay,D032,2900,4.5,"Mountain View, Restaurant, Pet Friendly",Comfortable rooms and helpful hosts.
+H193,Heritage Halesi Mahadev Lodge,D033,2600,4.8,"WiFi, Pet Friendly, Restaurant, Airport Pickup, Breakfast",Great value for money with authentic local meals.
+H194,River Halesi Mahadev Homestay,D033,1200,4.3,"Airport Pickup, Parking, WiFi",Comfortable rooms and helpful hosts.
+H195,Himalayan Halesi Mahadev Retreat,D033,4000,4.3,"Airport Pickup, Mountain View, Pet Friendly, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H196,Himalayan Halesi Mahadev Guest House,D033,2300,4.3,"Garden, Family Room, Restaurant, Parking, WiFi",Beautiful views and a welcoming family atmosphere.
+H197,Mountain Halesi Mahadev Homestay,D033,4800,4.6,"Pet Friendly, Mountain View, Airport Pickup, WiFi",Beautiful views and a welcoming family atmosphere.
+H198,Himalayan Halesi Mahadev Residence,D033,4400,4.7,"Pet Friendly, Airport Pickup, Restaurant, Garden, Mountain View",Comfortable rooms and helpful hosts.
+H199,Valley Pokhara Cave (Mahendra Gupha) Guest House,D034,4200,4.2,"Airport Pickup, Garden, Family Room, Pet Friendly",Comfortable rooms and helpful hosts.
+H200,Peace Pokhara Cave (Mahendra Gupha) Lodge,D034,3100,4.1,"Restaurant, Pet Friendly, Mountain View",Peaceful stay close to major attractions.
+H201,River Pokhara Cave (Mahendra Gupha) Inn,D034,2500,4.7,"Parking, Family Room, Airport Pickup, WiFi",Friendly hosts with clean rooms and excellent hospitality.
+H202,Lakeside Pokhara Cave (Mahendra Gupha) Homestay,D034,2800,4.7,"WiFi, Garden, Family Room, Pet Friendly, Parking",Great value for money with authentic local meals.
+H203,Peace Pokhara Cave (Mahendra Gupha) Guest House,D034,1500,4.3,"Mountain View, Breakfast, Airport Pickup",Peaceful stay close to major attractions.
+H204,Heritage Pokhara Cave (Mahendra Gupha) Lodge,D034,3800,4.6,"WiFi, Parking, Mountain View",Great value for money with authentic local meals.
+H205,Peace Davis Falls Inn,D035,3800,4.8,"Breakfast, Hot Shower, Family Room, Pet Friendly",Comfortable rooms and helpful hosts.
+H206,Mountain Davis Falls Guest House,D035,2700,4.6,"Family Room, Pet Friendly, Hot Shower",Comfortable rooms and helpful hosts.
+H207,Sunrise Davis Falls Residence,D035,3100,4.7,"WiFi, Garden, Restaurant, Hot Shower",Peaceful stay close to major attractions.
+H208,Annapurna Davis Falls Retreat,D035,1300,4.9,"Airport Pickup, Mountain View, Restaurant, Parking",Comfortable rooms and helpful hosts.
+H209,Green Davis Falls Guest House,D035,3000,4.7,"Garden, Family Room, WiFi, Airport Pickup, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H210,Annapurna Davis Falls Inn,D035,1900,4.5,"Garden, Family Room, Mountain View, Airport Pickup, Breakfast",Friendly hosts with clean rooms and excellent hospitality.
+H211,Green Begnas Lake Guest House,D036,4400,4.5,"Parking, Garden, WiFi",Friendly hosts with clean rooms and excellent hospitality.
+H212,Himalayan Begnas Lake Homestay,D036,1500,4.4,"WiFi, Breakfast, Pet Friendly, Restaurant, Family Room",Comfortable rooms and helpful hosts.
+H213,Lakeside Begnas Lake Lodge,D036,1300,4.6,"Hot Shower, Restaurant, Pet Friendly, Parking, Family Room",Comfortable rooms and helpful hosts.
+H214,River Begnas Lake Guest House,D036,2800,4.8,"Hot Shower, Family Room, WiFi",Peaceful stay close to major attractions.
+H215,River Begnas Lake Residence,D036,4000,4.1,"Family Room, Breakfast, WiFi, Garden",Peaceful stay close to major attractions.
+H216,River Begnas Lake Residence,D036,1700,4.7,"Hot Shower, Parking, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H217,Mountain Muktinath Temple Lodge,D037,2100,4.2,"Parking, Hot Shower, WiFi, Mountain View",Great value for money with authentic local meals.
+H218,Lakeside Muktinath Temple Homestay,D037,4900,4.2,"Hot Shower, Parking, Breakfast",Friendly hosts with clean rooms and excellent hospitality.
+H219,Himalayan Muktinath Temple Homestay,D037,1900,4.2,"Hot Shower, Garden, Airport Pickup, Restaurant, Pet Friendly",Peaceful stay close to major attractions.
+H220,Heritage Muktinath Temple Homestay,D037,2800,4.7,"Mountain View, Pet Friendly, Restaurant, Family Room",Comfortable rooms and helpful hosts.
+H221,Everest Muktinath Temple Residence,D037,3600,4.2,"Restaurant, Mountain View, Parking",Comfortable rooms and helpful hosts.
+H222,Annapurna Muktinath Temple Homestay,D037,2700,4.2,"Garden, Airport Pickup, Pet Friendly, Parking",Great value for money with authentic local meals.
+H223,Everest Sundarijal Inn,D038,3500,4.4,"Restaurant, Airport Pickup, WiFi, Parking",Peaceful stay close to major attractions.
+H224,Peace Sundarijal Retreat,D038,3100,4.6,"Parking, Pet Friendly, Restaurant, Mountain View, Family Room",Peaceful stay close to major attractions.
+H225,Sunrise Sundarijal Retreat,D038,1700,4.8,"Hot Shower, Mountain View, Airport Pickup, Breakfast",Great value for money with authentic local meals.
+H226,Valley Sundarijal Lodge,D038,1600,4.4,"Mountain View, Restaurant, Breakfast, Family Room, Airport Pickup",Great value for money with authentic local meals.
+H227,Green Sundarijal Residence,D038,2300,4.5,"WiFi, Hot Shower, Mountain View",Great value for money with authentic local meals.
+H228,River Sundarijal Lodge,D038,4400,4.6,"Mountain View, Pet Friendly, Breakfast, Restaurant, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H229,Peace Shivapuri National Park Guest House,D039,2500,4.1,"Mountain View, Family Room, Hot Shower, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H230,Himalayan Shivapuri National Park Lodge,D039,4800,4.1,"Parking, Hot Shower, Mountain View",Comfortable rooms and helpful hosts.
+H231,Peace Shivapuri National Park Retreat,D039,2200,4.3,"Pet Friendly, Airport Pickup, Family Room, Restaurant",Beautiful views and a welcoming family atmosphere.
+H232,Hill Shivapuri National Park Guest House,D039,4200,4.2,"Hot Shower, Family Room, Breakfast, Parking",Peaceful stay close to major attractions.
+H233,Himalayan Shivapuri National Park Retreat,D039,2000,4.7,"Parking, Restaurant, Mountain View",Peaceful stay close to major attractions.
+H234,Mountain Shivapuri National Park Lodge,D039,1700,4.6,"Hot Shower, Breakfast, Restaurant, Mountain View, Family Room",Peaceful stay close to major attractions.
+H235,Hill Daman Lodge,D040,2200,4.6,"WiFi, Hot Shower, Mountain View, Airport Pickup, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H236,Mountain Daman Lodge,D040,4300,4.5,"Restaurant, Breakfast, Mountain View",Comfortable rooms and helpful hosts.
+H237,Annapurna Daman Lodge,D040,5000,4.4,"Breakfast, Restaurant, Mountain View, Hot Shower, WiFi",Great value for money with authentic local meals.
+H238,Green Daman Residence,D040,3200,4.1,"Mountain View, Hot Shower, Pet Friendly",Great value for money with authentic local meals.
+H239,Peace Daman Lodge,D040,4300,4.4,"Garden, Parking, Pet Friendly",Friendly hosts with clean rooms and excellent hospitality.
+H240,Green Daman Inn,D040,3900,4.8,"Garden, Mountain View, Restaurant",Comfortable rooms and helpful hosts.
+H241,Peace Manakamana Temple Guest House,D041,2800,4.6,"Parking, Mountain View, Breakfast, Hot Shower",Great value for money with authentic local meals.
+H242,River Manakamana Temple Residence,D041,4800,4.7,"Family Room, Restaurant, Parking",Beautiful views and a welcoming family atmosphere.
+H243,Heritage Manakamana Temple Retreat,D041,1400,4.7,"Breakfast, Pet Friendly, WiFi",Comfortable rooms and helpful hosts.
+H244,River Manakamana Temple Inn,D041,4800,4.5,"Airport Pickup, Parking, Restaurant, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H245,Everest Manakamana Temple Guest House,D041,4700,4.8,"Parking, Mountain View, WiFi, Family Room",Great value for money with authentic local meals.
+H246,Lakeside Manakamana Temple Inn,D041,2700,4.7,"Airport Pickup, Garden, Breakfast, Hot Shower, Parking",Peaceful stay close to major attractions.
+H247,Sunrise Gorkha Durbar Retreat,D042,4000,4.8,"Mountain View, Pet Friendly, Parking",Comfortable rooms and helpful hosts.
+H248,Valley Gorkha Durbar Inn,D042,1200,4.6,"WiFi, Restaurant, Parking, Garden, Breakfast",Beautiful views and a welcoming family atmosphere.
+H249,Valley Gorkha Durbar Homestay,D042,3200,4.3,"Mountain View, Parking, Airport Pickup",Comfortable rooms and helpful hosts.
+H250,River Gorkha Durbar Lodge,D042,2600,4.5,"Restaurant, Pet Friendly, Garden, Breakfast",Comfortable rooms and helpful hosts.
+H251,Hill Gorkha Durbar Guest House,D042,3100,4.6,"Garden, Parking, WiFi",Great value for money with authentic local meals.
+H252,Green Gorkha Durbar Inn,D042,3600,4.7,"Parking, Restaurant, Airport Pickup, Family Room, Garden",Beautiful views and a welcoming family atmosphere.
+H253,Lakeside Lake Phoksundo Retreat,D043,1500,4.2,"Breakfast, Airport Pickup, Family Room",Peaceful stay close to major attractions.
+H254,Valley Lake Phoksundo Inn,D043,2300,4.5,"Pet Friendly, WiFi, Hot Shower, Garden, Restaurant",Beautiful views and a welcoming family atmosphere.
+H255,Everest Lake Phoksundo Lodge,D043,3400,4.7,"Pet Friendly, Garden, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H256,River Lake Phoksundo Homestay,D043,1600,4.9,"Hot Shower, Restaurant, Mountain View, Pet Friendly, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H257,Everest Lake Phoksundo Homestay,D043,4100,4.3,"Restaurant, Mountain View, Breakfast, Pet Friendly",Beautiful views and a welcoming family atmosphere.
+H258,River Lake Phoksundo Inn,D043,4200,4.5,"Parking, Mountain View, Pet Friendly, Garden",Peaceful stay close to major attractions.
+H259,Himalayan Tansen Retreat,D044,4100,4.6,"Breakfast, Pet Friendly, Family Room",Friendly hosts with clean rooms and excellent hospitality.
+H260,Valley Tansen Retreat,D044,3500,4.5,"Family Room, WiFi, Pet Friendly, Hot Shower",Beautiful views and a welcoming family atmosphere.
+H261,Peace Tansen Residence,D044,3100,4.6,"Mountain View, Garden, Parking, WiFi",Beautiful views and a welcoming family atmosphere.
+H262,Sunrise Tansen Inn,D044,2100,4.5,"Breakfast, Airport Pickup, Mountain View, Parking, Hot Shower",Comfortable rooms and helpful hosts.
+H263,Annapurna Tansen Lodge,D044,4900,4.4,"Restaurant, Mountain View, Pet Friendly, Airport Pickup, Hot Shower",Comfortable rooms and helpful hosts.
+H264,Himalayan Tansen Retreat,D044,2700,4.5,"Hot Shower, WiFi, Mountain View, Garden, Airport Pickup",Great value for money with authentic local meals.
+H265,Everest Khokana Homestay,D045,3400,4.4,"Pet Friendly, Family Room, Hot Shower, Airport Pickup, Parking",Peaceful stay close to major attractions.
+H266,Lakeside Khokana Inn,D045,3600,4.6,"WiFi, Family Room, Mountain View",Comfortable rooms and helpful hosts.
+H267,Hill Khokana Retreat,D045,2600,4.2,"Mountain View, Family Room, Hot Shower, Pet Friendly, Parking",Friendly hosts with clean rooms and excellent hospitality.
+H268,Everest Khokana Homestay,D045,3400,4.2,"Parking, Breakfast, Pet Friendly, Family Room",Great value for money with authentic local meals.
+H269,Sunrise Khokana Inn,D045,3900,4.4,"Airport Pickup, Garden, Hot Shower, Breakfast, Family Room",Peaceful stay close to major attractions.
+H270,River Khokana Retreat,D045,2100,4.2,"Airport Pickup, Parking, Family Room, Breakfast, Pet Friendly",Comfortable rooms and helpful hosts.
+H271,Heritage Panauti Residence,D046,3200,4.6,"Mountain View, Parking, Hot Shower",Peaceful stay close to major attractions.
+H272,Heritage Panauti Inn,D046,4900,4.5,"Breakfast, Parking, Restaurant, Garden, Pet Friendly",Peaceful stay close to major attractions.
+H273,Lakeside Panauti Residence,D046,2000,4.3,"Mountain View, Breakfast, Family Room, Hot Shower, WiFi",Comfortable rooms and helpful hosts.
+H274,Valley Panauti Retreat,D046,2700,4.3,"Garden, WiFi, Pet Friendly",Comfortable rooms and helpful hosts.
+H275,Himalayan Panauti Homestay,D046,1800,4.8,"Family Room, Mountain View, Breakfast",Beautiful views and a welcoming family atmosphere.
+H276,Heritage Panauti Guest House,D046,4500,4.7,"Garden, Parking, Family Room, Airport Pickup",Great value for money with authentic local meals.
+H277,Everest Ghandruk Inn,D047,3900,4.4,"Hot Shower, Pet Friendly, Breakfast, Restaurant, Family Room",Peaceful stay close to major attractions.
+H278,Mountain Ghandruk Retreat,D047,3700,4.5,"Restaurant, Breakfast, WiFi, Airport Pickup, Garden",Friendly hosts with clean rooms and excellent hospitality.
+H279,Mountain Ghandruk Inn,D047,2900,4.4,"Mountain View, Family Room, Pet Friendly",Comfortable rooms and helpful hosts.
+H280,Heritage Ghandruk Homestay,D047,4400,4.5,"Airport Pickup, Mountain View, WiFi, Parking, Restaurant",Peaceful stay close to major attractions.
+H281,Annapurna Ghandruk Residence,D047,1900,4.4,"WiFi, Mountain View, Parking",Peaceful stay close to major attractions.
+H282,Peace Ghandruk Homestay,D047,4200,4.6,"Breakfast, Family Room, Pet Friendly, Hot Shower",Comfortable rooms and helpful hosts.
+H283,Hill Pikey Peak Guest House,D048,1800,4.2,"Family Room, Airport Pickup, Pet Friendly, Breakfast, Garden",Beautiful views and a welcoming family atmosphere.
+H284,Valley Pikey Peak Residence,D048,3200,4.5,"Hot Shower, Mountain View, Breakfast",Friendly hosts with clean rooms and excellent hospitality.
+H285,Lakeside Pikey Peak Homestay,D048,2400,4.2,"Pet Friendly, Breakfast, WiFi, Garden, Hot Shower",Peaceful stay close to major attractions.
+H286,Green Pikey Peak Lodge,D048,4300,4.6,"Family Room, Airport Pickup, Garden, Hot Shower, Mountain View",Friendly hosts with clean rooms and excellent hospitality.
+H287,Annapurna Pikey Peak Guest House,D048,1300,4.3,"Restaurant, Pet Friendly, Hot Shower, Parking, Family Room",Beautiful views and a welcoming family atmosphere.
+H288,Valley Pikey Peak Guest House,D048,1500,4.3,"Restaurant, Pet Friendly, Garden",Comfortable rooms and helpful hosts.
+H289,Hill Dhampus Retreat,D049,3200,4.5,"Family Room, Pet Friendly, Airport Pickup, Hot Shower, Mountain View",Peaceful stay close to major attractions.
+H290,Peace Dhampus Homestay,D049,1600,4.9,"Breakfast, Mountain View, Garden, Family Room",Great value for money with authentic local meals.
+H291,River Dhampus Lodge,D049,2000,4.2,"Restaurant, WiFi, Pet Friendly",Beautiful views and a welcoming family atmosphere.
+H292,Heritage Dhampus Guest House,D049,3200,4.5,"WiFi, Airport Pickup, Hot Shower",Great value for money with authentic local meals.
+H293,Hill Dhampus Homestay,D049,4100,4.3,"Garden, Airport Pickup, WiFi, Pet Friendly, Hot Shower",Friendly hosts with clean rooms and excellent hospitality.
+H294,Green Dhampus Residence,D049,3200,4.6,"Pet Friendly, Restaurant, Breakfast, Garden, Hot Shower",Comfortable rooms and helpful hosts.
+H295,Lakeside Kakani Guest House,D050,1400,4.3,"Pet Friendly, Breakfast, WiFi",Friendly hosts with clean rooms and excellent hospitality.
+H296,River Kakani Guest House,D050,3100,4.7,"Parking, Airport Pickup, Pet Friendly",Peaceful stay close to major attractions.
+H297,Himalayan Kakani Homestay,D050,4400,4.4,"Pet Friendly, Family Room, Garden, Restaurant, Breakfast",Great value for money with authentic local meals.
+H298,Hill Kakani Retreat,D050,1600,4.8,"WiFi, Pet Friendly, Family Room, Garden",Great value for money with authentic local meals.
+H299,Valley Kakani Inn,D050,3900,4.8,"Parking, Hot Shower, WiFi",Beautiful views and a welcoming family atmosphere.
+H300,Everest Kakani Lodge,D050,3400,4.5,"Parking, Hot Shower, Airport Pickup",Friendly hosts with clean rooms and excellent hospitality.
