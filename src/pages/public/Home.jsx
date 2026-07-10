@@ -40,7 +40,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="max-w-2xl"
+            className="max-w-3xl"
           >
             <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-white">
               <FaMagic size={12} className="text-terracotta-400" /> AI-matched destinations & homestays
@@ -52,24 +52,24 @@ export default function Home() {
               Tell TripAI your travel style and budget — we'll match you to destinations and homestays across Nepal that fit, backed by real traveler reviews.
             </p>
 
-            {/* Premium Integrated Search Bar */}
+            {/* Premium Enlarged Integrated Search Bar */}
             <motion.form
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.15 }}
               onSubmit={handleSearch}
-              className="mt-8 flex flex-col gap-3 rounded-3xl bg-white/95 dark:bg-ink-900/95 p-2.5 shadow-2xl border border-white/20 dark:border-white/5 backdrop-blur-sm sm:flex-row sm:items-center max-w-xl transition-all duration-300 focus-within:shadow-[0_20px_50px_rgba(0,0,0,0.25)] focus-within:border-teal-500/30"
+              className="mt-8 flex flex-col gap-3 rounded-3xl bg-white/95 dark:bg-ink-900/95 p-3.5 sm:p-4 shadow-2xl border border-white/20 dark:border-white/10 backdrop-blur-sm sm:flex-row sm:items-center w-full max-w-2xl sm:max-w-3xl transition-all duration-300 focus-within:shadow-[0_20px_50px_rgba(0,0,0,0.3)] focus-within:border-teal-500/40"
             >
               <div className="relative flex-1">
-                <FaSearch className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-500/40 dark:text-sand-100/40" size={15} />
+                <FaSearch className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-ink-500/40 dark:text-sand-100/40" size={20} />
                 <input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder="Search by destination, region, or travel style…"
-                  className="w-full bg-transparent rounded-xl py-3 pl-11 pr-4 text-sm text-ink-900 dark:text-sand-50 placeholder:text-ink-500/50 dark:placeholder:text-sand-100/40 focus:outline-none"
+                  className="w-full bg-transparent rounded-xl py-4 sm:py-5 pl-14 pr-4 text-base text-ink-900 dark:text-sand-50 placeholder:text-ink-500/50 dark:placeholder:text-sand-100/40 focus:outline-none"
                 />
               </div>
-              <Button type="submit" size="md">
+              <Button type="submit" size="lg" className="px-8 py-4 text-base font-semibold">
                 Search
               </Button>
             </motion.form>
