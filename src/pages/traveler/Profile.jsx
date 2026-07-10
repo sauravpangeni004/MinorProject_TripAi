@@ -3,10 +3,12 @@ import { FaCamera } from 'react-icons/fa'
 import Button from '../../components/shared/Button'
 import { useAuth } from '../../context/AuthContext'
 import { useApp } from '../../context/AppContext'
+import useTheme from '../../hooks/useTheme'
 
 export default function Profile() {
   const { user, updateProfile } = useAuth()
   const { pushToast } = useApp()
+  const [theme, setTheme] = useTheme()
   const [form, setForm] = useState({ fullName: user.fullName, email: user.email })
   const [saving, setSaving] = useState(false)
 
@@ -30,8 +32,8 @@ export default function Profile() {
 
   return (
     <div className="max-w-2xl">
-      <h1 className="font-display text-2xl font-medium text-ink-900">Profile</h1>
-      <p className="mt-1 text-sm text-ink-500">Manage your personal information.</p>
+      <h1 className="font-display text-2xl font-medium text-ink-900">Profile & Settings</h1>
+      <p className="mt-1 text-sm text-ink-500">Manage your personal information and application preferences.</p>
 
       <div className="mt-6 rounded-2xl bg-white p-6 shadow-sm">
         <div className="flex items-center gap-4">
@@ -75,6 +77,33 @@ export default function Profile() {
             Save changes
           </Button>
         </form>
+      </div>
+
+      <div className="mt-6 rounded-2xl bg-white p-6 shadow-sm">
+        <h2 className="font-display text-lg font-medium text-ink-900">App Theme</h2>
+        <p className="mt-1 text-sm text-ink-500">Choose how TripAI looks to you.</p>
+
+        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {[
+            { id: 'light', name: 'Light Mode', icon: '☀️', desc: 'Clean and bright' },
+            { id: 'dark', name: 'Dark Mode', icon: '🌙', desc: 'Easy on the eyes' },
+            { id: 'system', name: 'System Default', icon: '💻', desc: 'Syncs with your OS' },
+          ].map((t) => (
+            <button
+              key={t.id}
+              onClick={() => setTheme(t.id)}
+              className={`flex flex-col items-start rounded-xl border p-4 text-left transition-all cursor-pointer ${
+                theme === t.id
+                  ? 'border-teal-500 bg-teal-50/50 text-teal-900'
+                  : 'border-ink-900/10 hover:border-teal-500/50'
+              }`}
+            >
+              <span className="text-xl">{t.icon}</span>
+              <span className="mt-2 text-sm font-semibold text-ink-900">{t.name}</span>
+              <span className="text-xs text-ink-500">{t.desc}</span>
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   )

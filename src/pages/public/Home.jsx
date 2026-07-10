@@ -35,7 +35,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-teal-900 via-teal-900/80 to-teal-900/40" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 pb-28 pt-20 sm:px-6 sm:pt-28 lg:px-8">
+        <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-24 sm:px-6 sm:pb-24 sm:pt-28 lg:px-8 lg:pb-28 lg:pt-32">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,31 +51,29 @@ export default function Home() {
             <p className="mt-4 text-base text-sand-100/80 sm:text-lg">
               Tell TripAI your travel style and budget — we'll match you to destinations and homestays across Nepal that fit, backed by real traveler reviews.
             </p>
-          </motion.div>
-        </div>
 
-        {/* Search bar overlapping hero/content boundary */}
-        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <motion.form
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            onSubmit={handleSearch}
-            className="-mb-8 flex flex-col gap-3 rounded-2xl bg-white p-3 shadow-xl sm:flex-row sm:items-center"
-          >
-            <div className="relative flex-1">
-              <FaSearch className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-500/50" size={15} />
-              <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search by destination, region, or travel style…"
-                className="w-full rounded-xl py-3.5 pl-11 pr-4 text-sm text-ink-900 placeholder:text-ink-500/60 focus:outline-none"
-              />
-            </div>
-            <Button type="submit" size="md">
-              Search
-            </Button>
-          </motion.form>
+            {/* Premium Integrated Search Bar */}
+            <motion.form
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              onSubmit={handleSearch}
+              className="mt-8 flex flex-col gap-3 rounded-3xl bg-white/95 dark:bg-ink-900/95 p-2.5 shadow-2xl border border-white/20 dark:border-white/5 backdrop-blur-sm sm:flex-row sm:items-center max-w-xl transition-all duration-300 focus-within:shadow-[0_20px_50px_rgba(0,0,0,0.25)] focus-within:border-teal-500/30"
+            >
+              <div className="relative flex-1">
+                <FaSearch className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-500/40 dark:text-sand-100/40" size={15} />
+                <input
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="Search by destination, region, or travel style…"
+                  className="w-full bg-transparent rounded-xl py-3 pl-11 pr-4 text-sm text-ink-900 dark:text-sand-50 placeholder:text-ink-500/50 dark:placeholder:text-sand-100/40 focus:outline-none"
+                />
+              </div>
+              <Button type="submit" size="md">
+                Search
+              </Button>
+            </motion.form>
+          </motion.div>
         </div>
       </section>
 

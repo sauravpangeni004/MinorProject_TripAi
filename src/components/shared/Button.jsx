@@ -1,9 +1,9 @@
 const variants = {
   primary: 'bg-terracotta-500 text-white hover:bg-terracotta-600 shadow-sm',
-  secondary: 'bg-teal-900 text-white hover:bg-teal-700 shadow-sm',
-  outline: 'border border-teal-900/20 text-teal-900 hover:bg-teal-900/5',
-  ghost: 'text-teal-900 hover:bg-teal-900/5',
-  danger: 'bg-red-50 text-red-700 hover:bg-red-100 border border-red-200',
+  secondary: 'bg-teal-900 text-white hover:bg-teal-700 shadow-sm dark:bg-teal-600 dark:hover:bg-teal-500',
+  outline: 'border border-teal-900/20 text-teal-900 hover:bg-teal-900/5 dark:border-teal-500/30 dark:text-teal-400 dark:hover:bg-teal-500/10',
+  ghost: 'text-teal-900 hover:bg-teal-900/5 dark:text-teal-400 dark:hover:bg-teal-500/10',
+  danger: 'bg-red-50 text-red-700 hover:bg-red-100 border border-red-200 dark:bg-red-950/20 dark:text-red-400 dark:hover:bg-red-950/40 dark:border-red-900/50',
 }
 
 const sizes = {
