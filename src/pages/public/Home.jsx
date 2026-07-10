@@ -52,24 +52,29 @@ export default function Home() {
               Tell TripAI your travel style and budget — we'll match you to destinations and homestays across Nepal that fit, backed by real traveler reviews.
             </p>
 
-            {/* Premium Enlarged Integrated Search Bar */}
+            {/* Premium Multi-line Integrated Search Bar */}
             <motion.form
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.15 }}
               onSubmit={handleSearch}
-              className="mt-8 flex flex-col gap-3 rounded-3xl bg-white/95 dark:bg-ink-900/95 p-3.5 sm:p-4 shadow-2xl border border-white/20 dark:border-white/10 backdrop-blur-sm sm:flex-row sm:items-center w-full max-w-2xl sm:max-w-3xl transition-all duration-300 focus-within:shadow-[0_20px_50px_rgba(0,0,0,0.3)] focus-within:border-teal-500/40"
+              className="mt-8 flex flex-col gap-3 rounded-3xl bg-white/95 dark:bg-ink-900/95 p-3.5 sm:p-4 shadow-2xl border border-white/20 dark:border-white/10 backdrop-blur-sm sm:flex-row sm:items-end w-full max-w-2xl sm:max-w-3xl transition-all duration-300 focus-within:shadow-[0_20px_50px_rgba(0,0,0,0.3)] focus-within:border-teal-500/40"
             >
-              <div className="relative flex-1">
-                <FaSearch className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-ink-500/40 dark:text-sand-100/40" size={20} />
-                <input
+              <div className="relative flex-1 flex items-start">
+                <FaSearch className="pointer-events-none absolute left-5 top-5 text-ink-500/40 dark:text-sand-100/40" size={18} />
+                <textarea
                   value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search by destination, region, or travel style…"
-                  className="w-full bg-transparent rounded-xl py-4 sm:py-5 pl-14 pr-4 text-base text-ink-900 dark:text-sand-50 placeholder:text-ink-500/50 dark:placeholder:text-sand-100/40 focus:outline-none"
+                  onChange={(e) => {
+                    setQuery(e.target.value)
+                    e.target.style.height = 'auto'
+                    e.target.style.height = `${Math.min(e.target.scrollHeight, 180)}px`
+                  }}
+                  rows={2}
+                  placeholder="Search by destination, region, or tell TripAI your travel plans in detail…"
+                  className="w-full bg-transparent rounded-xl py-3.5 pl-14 pr-4 text-base text-ink-900 dark:text-sand-50 placeholder:text-ink-500/50 dark:placeholder:text-sand-100/40 focus:outline-none resize-none min-h-[56px] max-h-[180px] overflow-y-auto leading-relaxed align-top"
                 />
               </div>
-              <Button type="submit" size="lg" className="px-8 py-4 text-base font-semibold">
+              <Button type="submit" size="lg" className="px-8 py-3.5 text-base font-semibold sm:mb-1.5">
                 Search
               </Button>
             </motion.form>
