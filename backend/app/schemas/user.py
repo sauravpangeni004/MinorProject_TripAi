@@ -20,6 +20,9 @@ class UserResponse(BaseModel):
     class Config:
         from_attributes = True
 
+class UserUpdate(BaseModel):
+    full_name: str
+    email: EmailStr
 
 class Token(BaseModel):
     access_token: str
