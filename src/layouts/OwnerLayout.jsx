@@ -18,7 +18,7 @@ const links = [
   { to: '/owner/bookings', label: 'Bookings', icon: FaCalendarCheck },
   { to: '/owner/reviews', label: 'Reviews', icon: FaStar },
   { to: '/owner/analytics', label: 'Analytics', icon: FaChartLine },
-  { to: '/owner/profile', label: 'Profile', icon: FaUserCircle },
+  { to: '/owner/profile', label: 'Settings', icon: FaUserCircle },
 ]
 
 export default function OwnerLayout() {

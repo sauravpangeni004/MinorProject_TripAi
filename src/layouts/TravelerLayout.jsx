@@ -19,7 +19,7 @@ const links = [
   { to: '/bookings', label: 'Bookings', icon: FaCalendarCheck },
   { to: '/favorites', label: 'Favorites', icon: FaHeart },
   { to: '/reviews', label: 'Reviews', icon: FaStar },
-  { to: '/profile', label: 'Profile', icon: FaUserCircle },
+  { to: '/profile', label: 'Settings', icon: FaUserCircle },
 ]
 
 export default function TravelerLayout() {
