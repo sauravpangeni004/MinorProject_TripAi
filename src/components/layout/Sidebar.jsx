@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { NavLink, Link, useNavigate } from 'react-router-dom'
-import { FaBars, FaTimes, FaSignOutAlt } from 'react-icons/fa'
+import { FaBars, FaMoon, FaSignOutAlt, FaSun, FaTimes } from 'react-icons/fa'
 import { useAuth } from '../../context/AuthContext'
+import { useTheme } from '../../context/ThemeContext'
 
 export default function Sidebar({ links, title = 'Dashboard' }) {
   const [open, setOpen] = useState(false)
   const { user, logout } = useAuth()
+  const { theme, toggleTheme } = useTheme()
   const navigate = useNavigate()
 
   const handleLogout = () => {
@@ -19,9 +21,18 @@ export default function Sidebar({ links, title = 'Dashboard' }) {
         <Link to="/" className="font-display text-lg font-semibold text-white">
           Trip<span className="text-terracotta-400">AI</span>
         </Link>
-        <button className="text-white/70 lg:hidden" onClick={() => setOpen(false)} aria-label="Close menu">
-          <FaTimes size={18} />
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+            className="rounded-full border border-white/10 bg-white/10 p-2 text-white/80"
+          >
+            {theme === 'dark' ? <FaSun size={14} /> : <FaMoon size={14} />}
+          </button>
+          <button className="text-white/70 lg:hidden" onClick={() => setOpen(false)} aria-label="Close menu">
+            <FaTimes size={18} />
+          </button>
+        </div>
       </div>
 
       {user && (

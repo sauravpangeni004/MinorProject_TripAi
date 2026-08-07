@@ -1,0 +1,145 @@
+{
+  "destinations": [
+    {
+      "id": "d1",
+      "name": "Pokhara",
+      "district": "Kaski",
+      "province": "Gandaki Pradesh",
+      "region": "Western Nepal",
+      "category": "Scenic",
+      "travelType": ["Nature", "Adventure"],
+      "activities": ["Paragliding", "Boating", "Hiking", "Sunrise view"],
+      "bestSeason": "Oct – Mar",
+      "estimatedBudget": 350,
+      "rating": 4.8,
+      "reviewCount": 312,
+      "description": "A lakeside city framed by the Annapurna range, known for paragliding, boating on Phewa Lake, and relaxed mountain views.",
+      "thingsToDo": ["Paragliding over Phewa Lake", "Sunrise at Sarangkot", "World Peace Pagoda hike", "Boating to Tal Barahi Temple"],
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "image": "/images/destinations/pokhara.svg",
+      "gallery": [
+        "/images/destinations/pokhara.svg",
+        "/images/destinations/bandipur.svg",
+        "/images/destinations/lumbini.svg"
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Bandipur",
+      "district": "Tanahun",
+      "province": "Gandaki Pradesh",
+      "region": "Central Nepal",
+      "category": "Cultural",
+      "travelType": ["Cultural", "Nature"],
+      "activities": ["Heritage walk", "Sunrise viewpoint", "Local food", "Photography"],
+      "bestSeason": "Sep – Apr",
+      "estimatedBudget": 220,
+      "rating": 4.6,
+      "reviewCount": 178,
+      "description": "A preserved Newar hill town with cobbled streets, traditional homestays, and panoramic Himalayan views.",
+      "thingsToDo": ["Walk the old bazaar street", "Visit Thani Mai temple", "Tundikhel viewpoint at sunrise", "Try local Newari cuisine"],
+      "latitude": 27.9354,
+      "longitude": 84.4088,
+      "image": "/images/destinations/bandipur.svg",
+      "gallery": [
+        "/images/destinations/bandipur.svg",
+        "/images/destinations/pokhara.svg"
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "Lumbini",
+      "district": "Rupandehi",
+      "province": "Lumbini Pradesh",
+      "region": "Southern Nepal",
+      "category": "Spiritual",
+      "travelType": ["Religious", "Cultural"],
+      "activities": ["Temple visit", "Meditation", "Museum tour", "Monastery walk"],
+      "bestSeason": "Nov – Feb",
+      "estimatedBudget": 180,
+      "rating": 4.5,
+      "reviewCount": 204,
+      "description": "The birthplace of Lord Buddha, home to the Maya Devi Temple and monasteries built by countries across the world.",
+      "thingsToDo": ["Maya Devi Temple", "Monastic Zone walk", "Lumbini Museum", "Sacred Garden meditation"],
+      "latitude": 27.4886,
+      "longitude": 83.2756,
+      "image": "/images/destinations/lumbini.svg",
+      "gallery": [
+        "/images/destinations/lumbini.svg",
+        "/images/destinations/ilam.svg"
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "Ilam",
+      "district": "Ilam",
+      "province": "Koshi Pradesh",
+      "region": "Eastern Nepal",
+      "category": "Nature",
+      "travelType": ["Nature", "Family"],
+      "activities": ["Tea garden walk", "Sunrise viewpoint", "Lake visit", "Photography"],
+      "bestSeason": "Mar – Jun",
+      "estimatedBudget": 200,
+      "rating": 4.7,
+      "reviewCount": 96,
+      "description": "Rolling tea gardens, misty hills, and slow mornings — one of the quietest, greenest corners of Nepal.",
+      "thingsToDo": ["Tea garden walk", "Antu Danda sunrise viewpoint", "Mai Pokhari lake", "Local tea factory tour"],
+      "latitude": 26.9091,
+      "longitude": 87.9281,
+      "image": "/images/destinations/ilam.svg",
+      "gallery": [
+        "/images/destinations/ilam.svg",
+        "/images/destinations/bhaktapur.svg"
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Bhaktapur",
+      "district": "Bhaktapur",
+      "province": "Bagmati Pradesh",
+      "region": "Kathmandu Valley",
+      "category": "Heritage",
+      "travelType": ["Cultural", "Luxury"],
+      "activities": ["Temple visits", "Craft workshops", "Rooftop cafés", "Photography"],
+      "bestSeason": "Year-round",
+      "estimatedBudget": 260,
+      "rating": 4.6,
+      "reviewCount": 421,
+      "description": "A living museum of Newar architecture — courtyards, pagoda temples, and centuries-old pottery squares.",
+      "thingsToDo": ["Durbar Square", "Pottery Square", "Nyatapola Temple", "Rooftop cafe hopping"],
+      "latitude": 27.6710,
+      "longitude": 85.4296,
+      "image": "/images/destinations/bhaktapur.svg",
+      "gallery": [
+        "/images/destinations/bhaktapur.svg",
+        "/images/destinations/chitwan.svg"
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Chitwan",
+      "district": "Chitwan",
+      "province": "Bagmati Pradesh",
+      "region": "Inner Terai",
+      "category": "Wildlife",
+      "travelType": ["Adventure", "Family", "Nature"],
+      "activities": ["Safari", "River canoe", "Culture show", "Birdwatching"],
+      "bestSeason": "Oct – Mar",
+      "estimatedBudget": 300,
+      "rating": 4.7,
+      "reviewCount": 265,
+      "description": "A national park famous for rhino and tiger sightings, jungle safaris, and Tharu cultural villages.",
+      "thingsToDo": ["Jeep safari", "Canoe ride on Rapti River", "Tharu cultural show", "Elephant breeding center visit"],
+      "latitude": 27.5291,
+      "longitude": 84.3541,
+      "image": "/images/destinations/chitwan.svg",
+      "gallery": [
+        "/images/destinations/chitwan.svg",
+        "/images/destinations/pokhara.svg"
+      ]
+    }
+  ],
+  "travelTypes": ["Adventure", "Religious", "Nature", "Cultural", "Luxury", "Family"],
+  "regions": ["Western Nepal", "Central Nepal", "Southern Nepal", "Eastern Nepal", "Kathmandu Valley", "Inner Terai"]
+}

@@ -16,9 +16,9 @@ export default function StarRating({ rating, reviewCount, size = 14 }) {
           <FaRegStar key={`e${i}`} size={size} />
         ))}
       </div>
-      <span className="text-sm font-medium text-ink-900">{rating.toFixed(1)}</span>
+      <span className="text-sm font-medium text-ink-900 dark:text-sand-50">{rating.toFixed(1)}</span>
       {reviewCount !== undefined && (
-        <span className="text-sm text-ink-500">({reviewCount})</span>
+        <span className="text-sm text-ink-500 dark:text-sand-400">({reviewCount})</span>
       )}
     </div>
   )

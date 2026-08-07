@@ -1,0 +1,20 @@
+[
+  {
+    "id": "u_traveler1",
+    "role": "traveler",
+    "fullName": "Aarav Koirala",
+    "email": "aarav@example.com",
+    "password": "password123",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "joinedDate": "2025-03-14"
+  },
+  {
+    "id": "u_owner1",
+    "role": "owner",
+    "fullName": "Sita Gurung",
+    "email": "sita@example.com",
+    "password": "password123",
+    "avatar": "https://i.pravatar.cc/150?img=45",
+    "joinedDate": "2024-11-02"
+  }
+]

@@ -24,7 +24,7 @@ const links = [
 
 export default function TravelerLayout() {
   return (
-    <div className="flex min-h-screen bg-sand-100">
+    <div className="flex min-h-screen bg-sand-100 text-ink-900 transition-colors duration-200 dark:bg-teal-950 dark:text-sand-50">
       <Sidebar links={links} title="Traveler" />
       <main className="flex-1 overflow-x-hidden p-4 sm:p-6 lg:p-8">
         <Outlet />

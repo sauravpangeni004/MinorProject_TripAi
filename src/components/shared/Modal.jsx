@@ -30,7 +30,7 @@ export default function Modal({ isOpen, onClose, title, children, size = 'md' })
       aria-label={title}
     >
       <div
-        className={`w-full ${sizes[size]} max-h-[90vh] overflow-y-auto rounded-2xl bg-white p-6 shadow-xl`}
+        className={`w-full ${sizes[size]} max-h-[90vh] overflow-y-auto rounded-2xl bg-white p-6 shadow-xl dark:bg-teal-950`}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="mb-4 flex items-center justify-between">

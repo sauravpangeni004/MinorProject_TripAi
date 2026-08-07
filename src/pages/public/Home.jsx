@@ -5,9 +5,13 @@ import { FaSearch, FaMagic, FaShieldAlt, FaLeaf, FaComments } from 'react-icons/
 import DestinationCard from '../../components/cards/DestinationCard'
 import HomestayCard from '../../components/cards/HomestayCard'
 import Button from '../../components/shared/Button'
-import { destinations } from '../../data/destinations'
-import { homestays } from '../../data/homestays'
-import { reviews } from '../../data/reviews'
+import { getDestinations } from '../../services/destinationService'
+import { getHomestays } from '../../services/homestayService'
+import { getReviews } from '../../services/reviewService'
+
+const destinations = getDestinations()
+const homestays = getHomestays()
+const reviews = getReviews()
 
 const popularDestinations = destinations.slice(0, 3)
 const featuredHomestays = homestays.slice(0, 3)
@@ -23,16 +27,16 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="bg-sand-50/70 dark:bg-ink-950">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-teal-900">
+      <section className="relative overflow-hidden bg-teal-900 dark:bg-ink-900">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1600&q=80"
             alt=""
-            className="h-full w-full object-cover opacity-30"
+            className="h-full w-full object-cover opacity-30 dark:opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-teal-900 via-teal-900/80 to-teal-900/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-teal-900 via-teal-900/80 to-teal-900/40 dark:from-ink-900 dark:via-ink-900/80 dark:to-ink-900/40" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-4 pb-28 pt-20 sm:px-6 sm:pt-28 lg:px-8">
@@ -45,23 +49,23 @@ export default function Home() {
             <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-white">
               <FaMagic size={12} className="text-terracotta-400" /> AI-matched destinations & homestays
             </p>
-            <h1 className="font-display text-4xl font-medium leading-tight text-white sm:text-5xl">
+            <h1 className="font-display text-4xl font-medium leading-tight text-white sm:text-5xl lg:text-6xl">
               Find a place that feels like it was picked just for you.
             </h1>
-            <p className="mt-4 text-base text-sand-100/80 sm:text-lg">
+            <p className="mt-4 max-w-xl text-base text-sand-100/80 sm:text-lg">
               Tell TripAI your travel style and budget — we'll match you to destinations and homestays across Nepal that fit, backed by real traveler reviews.
             </p>
           </motion.div>
         </div>
 
         {/* Search bar overlapping hero/content boundary */}
-        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div className="relative -mt-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pb-16">
           <motion.form
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15 }}
             onSubmit={handleSearch}
-            className="-mb-8 flex flex-col gap-3 rounded-2xl bg-white p-3 shadow-xl sm:flex-row sm:items-center"
+            className="flex flex-col gap-3 rounded-2xl bg-white/95 p-4 shadow-lg sm:flex-row sm:items-center dark:bg-teal-900/95 dark:border dark:border-white/10"
           >
             <div className="relative flex-1">
               <FaSearch className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-500/50" size={15} />
@@ -80,11 +84,11 @@ export default function Home() {
       </section>
 
       {/* Popular Destinations */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
-        <div className="flex items-end justify-between">
+      <section className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-sm font-medium text-terracotta-500">Handpicked</p>
-            <h2 className="font-display text-2xl font-medium text-ink-900 sm:text-3xl">Popular destinations</h2>
+            <h2 className="font-display text-2xl font-medium text-ink-900 dark:text-sand-50 sm:text-3xl">Popular destinations</h2>
           </div>
           <Button variant="ghost" size="sm" onClick={() => navigate('/destinations')}>
             View all →
@@ -98,11 +102,11 @@ export default function Home() {
       </section>
 
       {/* Featured Homestays */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
-        <div className="flex items-end justify-between">
+      <section className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-sm font-medium text-terracotta-500">Stay local</p>
-            <h2 className="font-display text-2xl font-medium text-ink-900 sm:text-3xl">Featured homestays</h2>
+            <h2 className="font-display text-2xl font-medium text-ink-900 dark:text-sand-50 sm:text-3xl">Featured homestays</h2>
           </div>
           <Button variant="ghost" size="sm" onClick={() => navigate('/homestays')}>
             View all →
@@ -119,7 +123,7 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-3xl bg-teal-900">
           <div className="grid grid-cols-1 items-center lg:grid-cols-2">
-            <div className="p-8 sm:p-12">
+            <div className="p-8 sm:p-10 lg:p-12">
               <p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-white">
                 <FaMagic size={12} className="text-terracotta-400" /> Powered by your preferences
               </p>
@@ -145,10 +149,10 @@ export default function Home() {
       </section>
 
       {/* Why Choose TripAI */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-medium text-terracotta-500">Why TripAI</p>
-          <h2 className="font-display text-2xl font-medium text-ink-900 sm:text-3xl">Built for how you actually plan trips</h2>
+          <h2 className="font-display text-2xl font-medium text-ink-900 dark:text-sand-50 sm:text-3xl">Built for how you actually plan trips</h2>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {[
@@ -156,31 +160,31 @@ export default function Home() {
             { icon: FaShieldAlt, title: 'Verified homestays', text: 'Every homestay is reviewed by real travelers, with ratings you can actually trust.' },
             { icon: FaLeaf, title: 'Local, sustainable stays', text: 'Stay with local families and small hosts instead of large chain hotels.' },
           ].map((item) => (
-            <div key={item.title} className="rounded-2xl bg-white p-6 shadow-sm">
+            <div key={item.title} className="rounded-2xl border border-ink-900/5 bg-white p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1 dark:border-white/10 dark:bg-teal-950/70">
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-teal-50 text-teal-700">
                 <item.icon size={18} />
               </div>
-              <h3 className="mt-4 font-display text-base font-medium text-ink-900">{item.title}</h3>
-              <p className="mt-2 text-sm text-ink-500">{item.text}</p>
+              <h3 className="mt-4 font-display text-base font-medium text-ink-900 dark:text-sand-50">{item.title}</h3>
+              <p className="mt-2 text-sm text-ink-500 dark:text-sand-300">{item.text}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Testimonials */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-medium text-terracotta-500">Traveler stories</p>
-          <h2 className="font-display text-2xl font-medium text-ink-900 sm:text-3xl">What travelers are saying</h2>
+          <h2 className="font-display text-2xl font-medium text-ink-900 dark:text-sand-50 sm:text-3xl">What travelers are saying</h2>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {testimonials.map((review) => (
-            <div key={review.id} className="rounded-2xl bg-white p-6 shadow-sm">
+            <div key={review.id} className="rounded-2xl border border-ink-900/5 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-teal-950/70">
               <FaComments className="text-terracotta-400" size={20} />
-              <p className="mt-4 text-sm text-ink-700">"{review.comment}"</p>
+              <p className="mt-4 text-sm text-ink-700 dark:text-sand-300">"{review.comment}"</p>
               <div className="mt-4 flex items-center gap-3">
                 <img src={review.avatar} alt={review.travelerName} className="h-9 w-9 rounded-full object-cover" />
-                <p className="text-sm font-medium text-ink-900">{review.travelerName}</p>
+                <p className="text-sm font-medium text-ink-900 dark:text-sand-50">{review.travelerName}</p>
               </div>
             </div>
           ))}
@@ -188,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-5 rounded-3xl bg-terracotta-500 p-10 text-center sm:p-14">
           <h2 className="font-display text-2xl font-medium text-white sm:text-3xl">Ready to find your next stay?</h2>
           <p className="max-w-md text-sm text-white/90">

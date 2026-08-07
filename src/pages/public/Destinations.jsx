@@ -7,8 +7,12 @@ import FilterSelect from '../../components/shared/FilterSelect'
 import Pagination from '../../components/shared/Pagination'
 import EmptyState from '../../components/shared/EmptyState'
 import { CardSkeletonGrid } from '../../components/shared/SkeletonLoader'
-import { destinations, travelTypes, regions } from '../../data/destinations'
+import { getDestinations, getTravelTypes, getRegions } from '../../services/destinationService'
 import { useDelayedLoading } from '../../hooks/useDelayedLoading'
+
+const destinations = getDestinations()
+const travelTypes = getTravelTypes()
+const regions = getRegions()
 
 const PAGE_SIZE = 6
 
