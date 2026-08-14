@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback } from 'react'
+import { createContext, useContext, useState, useCallback, useEffect } from 'react'
 import { bookings as mockBookings } from '../data/bookings'
 import { reviews as mockReviews } from '../data/reviews'
 import { homestays as mockHomestays } from '../data/homestays'
@@ -8,6 +8,26 @@ const AppContext = createContext(null)
 let toastId = 0
 
 export function AppProvider({ children }) {
+  const [darkMode, setDarkMode] = useState(() => {
+    const saved = localStorage.getItem('tripai_theme')
+    if (saved) return saved === 'dark'
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+  })
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('tripai_theme', 'dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('tripai_theme', 'light')
+    }
+  }, [darkMode])
+
+  const toggleDarkMode = useCallback(() => {
+    setDarkMode((prev) => !prev)
+  }, [])
+
   const [favoriteDestinations, setFavoriteDestinations] = useState(['d1'])
   const [favoriteHomestays, setFavoriteHomestays] = useState(['h1'])
   const [bookings, setBookings] = useState(mockBookings)
@@ -100,6 +120,8 @@ export function AppProvider({ children }) {
   return (
     <AppContext.Provider
       value={{
+        darkMode,
+        toggleDarkMode,
         favoriteDestinations,
         favoriteHomestays,
         toggleFavoriteDestination,
