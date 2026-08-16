@@ -14,7 +14,6 @@
 input, select, textarea, button {
   transition: background-color 300ms ease, border-color 300ms ease, color 300ms ease, box-shadow 300ms ease;
 }
-
 @theme {
   --color-teal-50: #EAF2F0;
   --color-teal-100: #CFE2DD;
@@ -41,6 +40,13 @@ input, select, textarea, button {
   --color-ink-700: #2A3433;
   --color-ink-900: #1C2625;
 
+  --color-navy-950: #070B18;
+  --color-navy-900: #0B132B;
+  --color-navy-850: #101B3B;
+  --color-navy-800: #1C2541;
+  --color-navy-700: #283759;
+  --color-navy-600: #3B4E7A;
+
   --font-display: "Fraunces", Georgia, serif;
   --font-sans: "Inter", system-ui, sans-serif;
 }
@@ -54,6 +60,57 @@ body {
   font-family: var(--font-sans);
   color: var(--color-ink-900);
   background: var(--color-sand-100);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button, [role="button"] {
+  cursor: pointer;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  color: #F8FAFC;
+  background-color: #0B1117 !important;
+}
+
+/* Headings in Dark Mode */
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #F8FAFC !important;
+}
+
+/* Eyebrows in Dark Mode */
+html.dark .text-terracotta-500 {
+  color: #D97A4D !important;
+}
+
+/* Body & Subtitle Text in Dark Mode */
+html.dark p:not(.text-white):not(.text-terracotta-500) {
+  color: #CBD5E1;
+}
+
+/* Cards in Dark Mode */
+html.dark .bg-white {
+  background-color: #121B27 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Text overrides in Dark Mode */
+html.dark .text-navy-950,
+html.dark .text-ink-900 {
+  color: #F8FAFC !important;
+}
+
+html.dark .text-ink-500,
+html.dark .text-ink-700 {
+  color: #94A3B8 !important;
 }
 
 /* Global dark mode styling overrides */
